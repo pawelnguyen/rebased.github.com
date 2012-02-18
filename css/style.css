@@ -215,3 +215,39 @@ article section#contact form input[type=submit] {
   border-radius: 15px;
   behavior: url(/css/PIE.htc);
 }
+
+@media only screen and (max-device-width: 480px) {
+  header nav {
+    height: 100px;
+  }
+  header nav ul {
+    font-size: 42px;
+    margin-top: 18px;
+  }
+  header nav ul li {
+    padding: 0 5px;
+  }
+  article {
+    width: 100%;
+  }
+  article section {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  section h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+  section p {
+    font-size: 32px !important;
+    text-align: justify;
+  }
+  article section#branding img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 760px;
+  }
+  h1 {
+    display: none;
+  }
+}
