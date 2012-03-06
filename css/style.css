@@ -187,6 +187,9 @@ article section#contact #contact_data address .name {
 }
 
 @media only screen and (max-device-width: 480px) {
+  h1 {
+    display: none;
+  }
   header nav {
     height: 100px;
   }
@@ -201,8 +204,8 @@ article section#contact #contact_data address .name {
     width: 100%;
   }
   article section {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   section h2 {
     font-size: 48px;
@@ -212,12 +215,35 @@ article section#contact #contact_data address .name {
     font-size: 32px !important;
     text-align: justify;
   }
-  article section#branding img {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 760px;
+  article section#branding {
+    padding-top: 240px;
   }
-  h1 {
-    display: none;
+  article section#branding img {
+    width: 100%;
+  }
+  article section#team li {
+    height: 300px;
+  }
+  article section#team img {
+    width: 160px;
+  }
+  article section#team .social {
+    width: 160px;
+  }
+  article section#team .social a {
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px 10px 0;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+  }
+  article section#team p {
+    left: 180px;
+  }
+  article section#team .name {
+    top: 0;
+  }
+  article section#team .description {
+    top: 40px;
   }
 }
